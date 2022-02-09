@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../zdjecia/background/background.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Arial, Helvetica;
+}
+
+/* uniwersalne tło strony, czcionka */
+
+.header {
+  background-color: snow;
+  padding: 20px;
+  text-align: center;
+}
+/* Wyżej mamy styl headera jako h1 */
+
+.column.middle {
+  background-color: snow;
+  border: 0px none;
+  width: 80%;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  padding: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* kolumna środkowa */
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* czyszczenie floatów po kolumnie */
+
+.footer {
+  background-color: snow;
+  padding: 10px;
+  text-align: center;
+}
+
+/* footer, stopka */
+
+.navbar {
+  overflow: hidden;
+  background-color: dimgrey;
+}
+
+/* element navbar */
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.centrowane {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+/* centrowanie elementu */
+
+h1 {
+  color: black;
+}
+h2 {
+  color: dimgray;
+  font-weight: bold;
+}
+
+p {
+  color: dimgrey;
+}

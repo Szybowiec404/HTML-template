@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+
+<html lang="pl" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>WSEI, projekt</title>
+
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/galeria.css">
+
+</head>
+
+<body>
+
+    <audio autoplay loop controls id="ptaki" src="./audio/ptaki.mp3">
+        <p>Jeśli to widzisz, znaczy to, że Twoja przeglądarka nie obsługuje playera audio.</p>
+    </audio>
+    <script>
+        var audio = document.getElementById("ptaki");
+        audio.volume = 0.1;
+    </script>
+
+    <!-- audio z dziękami natury, autoplay i loop,
+        java script coveruje nam głośność audio-->
+
+    <h1 id="top" class="header"> Galeria zdjęć </h1>
+
+    <div class="navbar">
+        <a href="index.html">Strona główna</a>
+        <a href="galeria.html">Galeria</a>
+        <div class="dropdown">
+            <button class="dropbtn">Więcej&#8595;
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="projekt.html">O projekcie</a>
+                <a href="https://wsei.edu.pl" target="_blank">WSEI</a>
+                <a href="https://github.com/Szybowiec404/TicTacToe" target="_blank">Github</a>
+            </div>
+        </div>
+    </div>
+    <br />
+    <a href="https://wsei.edu.pl" target="_blank"><img src="./zdjecia/background/baner.png" alt="baner uczelni"
+            class="centrowane"></a>
+    <br />
+    <br />
+    <br />
+    <div class="row">
+        <div class="column middle">
+            <p>
+                Nazywam sie <strong>Mikołaj Brońkowski</strong>, i to jest to moja pierwsza strona z użyciem CSS (i odrobina js)
+                <hr>
+                <br />
+                <br />
+
+                <!-- <label for="test-dropdown">Linki do podstron</label> 
+                <select name="test-dropdown" onchange="location = this.value;">
+                <option selected disabled>Wybierz link</option>
+                <option value="projekt.html">O projekcie</option>
+                <option value="galeria.html">Galeria</option>
+                </select> -->
+
+                <!-- NIE UŻYWAĆ - OBSOLETE. Zastąpiono navbarem -->
+
+                <!-- <option selected disabled>...</option> dodaje opcje do dropdowna - defaultowa, nie-wybieralna 
+                    obiekty label oraz select tworzą prosty dropdown -->
+
+                <br />
+                <br />
+    <h2>Tutaj bedzie galeria projektu</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint, maxime. Facilis corrupti laboriosam, sapiente et in at similique voluptates, pariatur, dolores omnis dolor enim ipsam odit vero consequuntur qui harum?</p>
+
+    
+                        <div class="gallery">
+                            <a target="_blank" href="./zdjecia/indexowe/zdj1.JPEG">
+                                <img src="./zdjecia/indexowe/zdj1.JPEG" alt="Zdjecie 1" width="600">
+                            </a>
+                            <div class="desc">Owoc (pąk) róży</div>
+                        </div>
+                        
+                        <div class="gallery">
+                            <a target="_blank" href="./zdjecia/indexowe/zdj2.JPEG">
+                                <img src="./zdjecia/indexowe/zdj2.JPEG" alt="Zdjecie 2" width="600">
+                            </a>
+                            <div class="desc">Kwiat róży herbacianej</div>
+                            </div>
+                        
+                            <div class="gallery">
+                                <a target="_blank" href="./zdjecia/indexowe/zdj3.JPEG">
+                                    <img src="./zdjecia/indexowe/zdj3.JPEG" alt="Zdjecie 3" width="600">
+                                </a>
+                                <div class="desc">Liść jarząbia szwedzkiego</div>
+                            </div>
+                        
+                            <div class="gallery">
+                                <a target="_blank" href="./zdjecia/indexowe/zdj5.JPEG">
+                                    <img src="./zdjecia/indexowe/zdj5.JPEG" alt="Zdjecie 5" width="600">
+                                </a>
+                                <div class="desc">Kwiat róży pospolitej</div>
+                                </div>
+                                <!-- <div class="gallery">
+                                    <a target="_blank" href="/zdjecia/indexowe/zdj4.JPEG">
+                                        <img src="/zdjecia/indexowe/zdj4.JPEG" alt="Zdjecie 4" width="600">
+                                    </a>
+                                    <div class="desc">Cyprys</div> -->
+                                
+                                    <div class="gallery">
+                                        <a target="_blank" href="./zdjecia/indexowe/zdj8.JPEG">
+                                            <img src="./zdjecia/indexowe/zdj8.JPEG" alt="Zdjecie 8" width="600">
+                                        </a>
+                                        <div class="desc">Chwast polny</div>
+                                    </div>
+                                        <br />
+                                        <br />
+                                        <br />
+                                        <br />
+                                        <br />
+                                        <br />
+                                        <br />
+                                        <br />
+                                        <br />
+                                        <br />
+                                        <br />
+                                        <br />
+                                        <br />
+                                        <br />
+                                        <br />
+                                        <br />
+                                        <br />
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab, quos sapiente dicta harum dolores alias ex, architecto
+                            nobis saepe repellat debitis eveniet odit earum tempore deserunt modi culpa, voluptatem sit?</p>
+                            <hr>
+                        <h2>Wszystkie zdjecia zostały wykonane przeze mnie, były do projektu rewitalizacji pewnej ulicy w Krakowie, wobec praktyk studenki Politechniki Krakowskiej.</h2>
+                                </div>
+                        </div>
+                        </div>
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+
+    <br />
+        <div class="footer">
+            <p> Masz pytania co do użytego kodu? Polecam:
+                <br />
+                <a href="https://www.w3schools.com/" target="_blank">https://www.w3schools.com/</a>
+                <br />
+                <a href="https://stackoverflow.com/" target="_blank">https://stackoverflow.com/</a>
+                <br />
+                <a href="https://developer.mozilla.org/" target="_blank">https://developer.mozilla.org/</a>
+                <br />
+                W ostateczności, <a href="www.google.pl" target="_blank">www.google.pl</a>
+            </p>
+        
+            <br />
+            <a href="#top">Wróć na góre</a>
+        </div>
+        </body>
+        
+        </html>
+</body>
+</html>

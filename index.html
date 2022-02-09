@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+<html lang="pl" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>WSEI, projekt</title>
+    
+<link rel="stylesheet" href="./css/styles.css">
+     
+</head>
+<body>
+
+        <audio autoplay loop controls id="ptaki" src="./audio/ptaki.mp3">
+        <p>Jeśli to widzisz, znaczy to, że Twoja przeglądarka nie obsługuje playera audio.</p>
+        </audio>
+            <script>
+            var audio = document.getElementById("ptaki");
+            audio.volume = 0.1;
+            </script>
+          
+          <!-- audio z dziękami natury, autoplay i loop,
+        java script coveruje nam głośność audio-->
+
+    <h1 id="top" class="header"> Witamy na stronie głównej </h1>
+
+    <div class="navbar">
+        <a href="index.html">Strona główna</a>
+        <a href="galeria.html">Galeria</a>
+        <div class="dropdown">
+            <button class="dropbtn">Więcej&#8595;
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="projekt.html">O projekcie</a>
+                <a href="https://wsei.edu.pl" target="_blank">WSEI</a>
+                <a href="https://github.com/Szybowiec404/TicTacToe" target="_blank">Github</a>
+            </div>
+        </div>
+    </div>
+    <br />
+    <a href="https://wsei.edu.pl" target="_blank"><img src="./zdjecia/background/baner.png" alt="baner uczelni" class="centrowane"></a>
+    <br />
+    <br />
+    <br />
+    <div class="row">
+        <div class="column middle">
+        <p>
+            Nazywam sie <strong>Mikołaj Brońkowski</strong>, i to jest to moja pierwsza strona z użyciem CSS (i odrobina js)
+            <br />
+            <br />
+                    
+                <!-- <label for="test-dropdown">Linki do podstron</label> 
+                <select name="test-dropdown" onchange="location = this.value;">
+                <option selected disabled>Wybierz link</option>
+                <option value="projekt.html">O projekcie</option>
+                <option value="galeria.html">Galeria</option>
+                </select> -->
+
+                <!-- NIE UŻYWAĆ - OBSOLETE. Zastąpiono navbarem -->
+            
+                <!-- <option selected disabled>...</option> dodaje opcje do dropdowna - defaultowa, nie-wybieralna 
+                    obiekty label oraz select tworzą prosty dropdown -->
+            
+            <br />
+            <br />
+            Teraz dodajemy Lorem Ipsum, dla zapełnienia contentem
+            <hr>
+            <br />
+            <br />
+            <h2>Lorem Ipsum</h2>
+            <br />
+            
+            <!-- Tutaj <br> robi nam za mały odstęp między tekstem który jest dzieckiem powyższego paragrafu
+            ,a między headingiem 2 -->
+
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque augue dolor, porta eu tortor eu, ultricies eleifend ligula. Phasellus et quam vitae sapien pharetra auctor ac euismod neque. Vestibulum eget lorem scelerisque, aliquam metus consequat, scelerisque massa. Etiam tincidunt, libero ut malesuada suscipit, nulla risus semper massa, vel malesuada nisi odio sed quam. Praesent interdum sodales pharetra. Proin lacinia elementum metus, nec ultricies erat sodales rutrum. Aenean placerat id mi at placerat. Proin vel nulla eu turpis bibendum ornare in eu sem. Nulla lorem orci, dictum ac pulvinar aliquam, convallis ut odio. Aliquam vulputate sapien dolor, nec ullamcorper sapien scelerisque quis. Donec id aliquam justo. Donec tempor dolor nec magna interdum, non sagittis lectus euismod. Aliquam finibus quis mauris non lobortis. Donec justo quam, aliquet non dignissim sed, auctor cursus odio.
+
+            Suspendisse volutpat sapien orci, eget maximus diam finibus nec. Aenean sed erat quis felis imperdiet elementum. Proin ultrices, augue sed sollicitudin aliquet, turpis arcu convallis erat, nec efficitur tortor nisl eu leo. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam sollicitudin velit sed enim gravida, sed imperdiet urna sodales. Vivamus interdum eget tellus a cursus. Suspendisse cursus aliquet tristique. Nullam rhoncus ex sit amet enim tempus, nec ultrices elit tempus. Praesent quis euismod purus, eu viverra mi. Mauris tristique consectetur lorem id egestas. Fusce pharetra nec ligula at hendrerit.
+
+            Praesent volutpat maximus nibh nec rutrum. Curabitur vel odio eget tortor ullamcorper pretium. Phasellus vel nisi cursus, consectetur nisl ac, condimentum felis. Donec nec hendrerit elit. Sed hendrerit congue lorem in imperdiet. Quisque a sagittis libero. Morbi efficitur orci in cursus luctus. Pellentesque faucibus quam ante, iaculis euismod neque egestas ac.
+
+            Sed ac tempor libero, ut dapibus dui. Etiam lobortis mi at fringilla ornare. Nam ut suscipit leo, et interdum metus. Proin sed ultricies quam. Phasellus consectetur tincidunt elit, ac facilisis risus volutpat sit amet. Nullam porttitor nec nisi eu congue. Praesent libero metus, posuere eget nisi congue, ultrices consequat ipsum. Phasellus auctor, nulla sit amet vulputate facilisis, lorem justo vehicula nisi, eu ultricies nibh augue eget ligula. Donec pretium orci ac tellus aliquet sagittis.
+
+            Nulla facilisi. Sed at ligula commodo, vehicula quam sit amet, imperdiet odio. Vivamus dapibus dignissim posuere. Pellentesque mauris urna, tristique sit amet enim maximus, aliquet ultrices leo. Praesent id mauris facilisis, luctus quam eget, dictum ligula. Vestibulum aliquet elit massa, vitae venenatis eros scelerisque sagittis. Sed commodo mollis nisl. Cras varius arcu urna, at facilisis dolor egestas luctus. Mauris libero nisi, hendrerit quis suscipit eget, condimentum et metus. Nulla facilisi. Aliquam sagittis metus ut elit ultricies fermentum. Proin sodales hendrerit euismod. Donec pharetra aliquam quam. Nunc nec rhoncus risus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Morbi egestas pharetra eros.
+        </p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio libero sint nesciunt tenetur numquam et ex quaerat eum mollitia? Nemo voluptate perspiciatis iusto. Tempora assumenda suscipit sapiente, voluptas voluptatibus ab.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos dolores iste voluptates ducimus itaque minima magnam et cupiditate, enim reiciendis ad officiis omnis unde repellendus earum, provident error sed ab.</p>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+</div>
+<br />
+<br />
+<br />
+<br />
+<br />
+
+    <div class="footer">
+    <p> Masz pytania co do użytego kodu? Polecam:
+    <br />
+        <a href="https://www.w3schools.com/" target="_blank">https://www.w3schools.com/</a>
+    <br />
+        <a href="https://stackoverflow.com/" target="_blank">https://stackoverflow.com/</a>
+    <br />
+        <a href="https://developer.mozilla.org/" target="_blank">https://developer.mozilla.org/</a>
+    <br />    
+    W ostateczności, <a href="www.google.pl" target="_blank" >www.google.pl</a> </p>
+
+    <br />
+    <a href="#top">Wróć na góre</a>
+    </div>
+</body>
+</html>
